@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D7637CE3F9CCC1CD1C216D /* GameKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0E7B7E35C39C9EA41317685A /* GameKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9277B77A60B9A90E7CED0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF7F13E34A3FF8727C953B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EC03E9215F2A98C2004CD8F;
+			remoteInfo = PuzzleLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3552B9DEF8EAED1162B3FC0 /* PuzzleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B805DBA6489DCB16578FC4 /* PuzzleLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4CF907260D6A03599CF87A43 /* PuzzleLab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PuzzleLab;
+			sourceTree = "<group>";
+		};
+		B866A85348C1E7EB9E9930B8 /* PuzzleLabTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PuzzleLabTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D99F86A38DCC9B166E00C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D7637CE3F9CCC1CD1C216D /* GameKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBEFC23EC75EEF3F24CB88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AC3B38575AA3C49C52E40D4 = {
+			isa = PBXGroup;
+			children = (
+				4CF907260D6A03599CF87A43 /* PuzzleLab */,
+				B866A85348C1E7EB9E9930B8 /* PuzzleLabTests */,
+				31295428203E50565636C00C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31295428203E50565636C00C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3552B9DEF8EAED1162B3FC0 /* PuzzleLab.app */,
+				80B805DBA6489DCB16578FC4 /* PuzzleLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EC03E9215F2A98C2004CD8F /* PuzzleLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6A6AD007F567C5FD6FCBE7;
+			buildPhases = (
+				542C34CE24FF08DF12D1EAD8 /* Sources */,
+				5D99F86A38DCC9B166E00C1A /* Frameworks */,
+				9E0BB7031E81B16C261E7728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4CF907260D6A03599CF87A43 /* PuzzleLab */,
+			);
+			name = PuzzleLab;
+			packageProductDependencies = (
+				0E7B7E35C39C9EA41317685A /* GameKit */,
+			);
+			productName = PuzzleLab;
+			productReference = C3552B9DEF8EAED1162B3FC0 /* PuzzleLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D105D9D17881509AD77C6926 /* PuzzleLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7516DFBEF7A5072C7EC3AABA;
+			buildPhases = (
+				B0E94000AEDCB958F4FBD021 /* Sources */,
+				4DBEFC23EC75EEF3F24CB88E /* Frameworks */,
+				7EB9B7B21E3B831DDC961A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35FBA423030A97F93AC9CACA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B866A85348C1E7EB9E9930B8 /* PuzzleLabTests */,
+			);
+			name = PuzzleLabTests;
+			packageProductDependencies = (
+			);
+			productName = PuzzleLabTests;
+			productReference = 80B805DBA6489DCB16578FC4 /* PuzzleLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF7F13E34A3FF8727C953B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					1EC03E9215F2A98C2004CD8F = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D105D9D17881509AD77C6926 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 1EC03E9215F2A98C2004CD8F;
+					};
+				};
+			};
+			buildConfigurationList = D6E2542736745967E4C5904A;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC3B38575AA3C49C52E40D4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AE3CFACDF62CE2AA486747A3 /* XCLocalSwiftPackageReference "Packages/GameKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 31295428203E50565636C00C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EC03E9215F2A98C2004CD8F /* PuzzleLab */,
+				D105D9D17881509AD77C6926 /* PuzzleLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E0BB7031E81B16C261E7728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB9B7B21E3B831DDC961A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542C34CE24FF08DF12D1EAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E94000AEDCB958F4FBD021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35FBA423030A97F93AC9CACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EC03E9215F2A98C2004CD8F /* PuzzleLab */;
+			targetProxy = E9277B77A60B9A90E7CED0BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDD4ABE4B86D70B4B93CA16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		59615BD47CE075653EA58AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0608938AB82D62CD261F4D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Puzzle Lab";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngstudio.puzzlelab.braingames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BE51EB4507D8BB4CA659FDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Puzzle Lab";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngstudio.puzzlelab.braingames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1468DB19962114B0FD08B191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngstudio.puzzlelab.braingames.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuzzleLab";
+			};
+			name = Debug;
+		};
+		80E0FC8CF6F88CA292C0219D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngstudio.puzzlelab.braingames.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuzzleLab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E2542736745967E4C5904A /* Build configuration list for PBXProject "PuzzleLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD4ABE4B86D70B4B93CA16D /* Debug */,
+				59615BD47CE075653EA58AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6A6AD007F567C5FD6FCBE7 /* Build configuration list for PBXNativeTarget "PuzzleLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0608938AB82D62CD261F4D26 /* Debug */,
+				BE51EB4507D8BB4CA659FDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7516DFBEF7A5072C7EC3AABA /* Build configuration list for PBXNativeTarget "PuzzleLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1468DB19962114B0FD08B191 /* Debug */,
+				80E0FC8CF6F88CA292C0219D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AE3CFACDF62CE2AA486747A3 /* XCLocalSwiftPackageReference "Packages/GameKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/GameKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E7B7E35C39C9EA41317685A /* GameKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GameKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3CF7F13E34A3FF8727C953B0 /* Project object */;
+}
